@@ -1,0 +1,20 @@
+{
+  "name": "petri-net-visualization",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "repository": "https://github.com/geropl/petri-net-visualization.git",
+  "author": "Gero Posmyk-Leinemann <gero@gitpod.io>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "cytoscape": "^3.19.1",
+    "cytoscape-fcose": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/cytoscape": "^3.14.17"
+  }
+}
